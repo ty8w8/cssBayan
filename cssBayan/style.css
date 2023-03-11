@@ -83,6 +83,12 @@ span{
 .container{
     font-size: 1.25rem;
 }
+h1{
+    margin-right: 15%;
+}
+.accordion {
+    margin-left: 5%;
+}
 .input-meme:checked ~ .meme-pic img{
     max-height: 40vh;
     max-width: 40vh;
@@ -100,6 +106,9 @@ span{
 .container{
     font-size: 2.25rem;
 }
+.accordion{
+    margin-left: 25%;
+}
 .input-meme:checked ~ .meme-pic img{
     max-height: 45vh;
     max-width: 45vh;
@@ -111,11 +120,24 @@ span{
     transition: all .6s ease-out;
     
 }
+.icon-circle{
+    transform: scale(1.5);
+}
 }
 /* Desktop */
 @media screen and (min-width: 1920px){
 .container{
-    font-size: 2.5rem;
+    font-size: 3rem;
+}
+h1{
+    margin-right: 0;
+}
+.accordion{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.icon-circle{
+    transform: scale(2.2);
 }
 }
 /* Hovers */
