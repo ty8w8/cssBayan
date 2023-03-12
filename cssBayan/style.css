@@ -83,12 +83,6 @@ span{
 .container{
     font-size: 1.25rem;
 }
-h1{
-    margin-right: 15%;
-}
-.accordion {
-    margin-left: 5%;
-}
 .input-meme:checked ~ .meme-pic img{
     max-height: 40vh;
     max-width: 40vh;
